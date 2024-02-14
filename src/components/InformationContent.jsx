@@ -3,7 +3,8 @@ import {AiFillPhone, AiOutlineMail, AiFillEnvironment} from  "react-icons/ai";
 import "../styles/components/informationcontent.sass";
 
 const InformationContent = () =>{
-    return <section id="information">
+    return (
+     <section id="information">
         <div className="info-card">
             <AiFillPhone id="phone-icon"/>
             <div>
@@ -28,7 +29,8 @@ const InformationContent = () =>{
             </div>
         </div>
         
-    </section>
+    </section> 
+    )
 }
 
 export default InformationContent

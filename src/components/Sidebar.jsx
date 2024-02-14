@@ -1,5 +1,6 @@
 import React from "react";
 
+import DownloadButton from "./DownloadButton";
 import Avatar from '../img/eu.jpg'
 import '../styles/components/sidebar.sass';
 import SocialNetworks from "./SocialNetwork";
@@ -11,9 +12,7 @@ const MainContent = () => {
         <p className="title">Desenvolvedor</p>
         <SocialNetworks/>
         <InformationContent/>
-        <a href="" className="btn">
-            Download Curriculo
-        </a>
+        <DownloadButton fileName="Paulo Vinicius Mota - Currículo.pdf"/>
     </aside>
 }
 
